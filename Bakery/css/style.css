@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1000;
+    background-color: transparent;
+    padding: 15px 0px;
+    color: #ffffff;
+    font-size: 20px;
+}
+nav img{
+    width: 176.5px;
+    height: 45px;
+    position: absolute;
+    left: 60px;
+    vertical-align: middle;
+}
+nav ul{
+    list-style: none;
+    position: absolute;
+    right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+.active
+{
+    border-top: 2px solid #ae9768;
+    padding-top: 10px;
+}
+.home{
+    height: 900px;
+    width: 100%;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 100;
+    
+}
+.home p{
+    font-size: 22px;
+    padding: 5px;
+    /* z-index: 200; */
+    
+}
+.home h1{
+    font-size: 76px;
+    padding: 5px;
+    /* z-index: 200; */
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+}
+.learn-btn{
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    background-color: #ae9768;
+    border-radius: 5px;
+    position: absolute;
+    left:27%;
+    top: 210px;
+    z-index: 200;
+    transition: 500ms;
+}
+.contact-btn{
+    border: 2px solid #ffffff;
+    padding: 15px 28px;
+    border-radius: 5px;
+    position: absolute;
+    left:50%;
+    top: 210px;
+    z-index: 200;
+    transition: 500ms;
+}
+.home-text{
+    position: absolute;
+    top:35%;
+    left: 27%;
+    width: 750px;
+}
+
+.learn-btn:hover, .contact-btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 500ms;
+}
+.who-we-are, .our-location, .our-baking, .contact{
+    /* width: 100%; */
+    padding: 90px 100px 60px 100px;
+    position: relative;
+}
+.who-img{
+    width:565px;
+    height: 537px;
+    display: inline-block;
+}
+.who-img img, .loc-img img{
+    width: 100%;
+    height: 100%;
+}
+.who-text{
+    width:565px;
+    height: 537px;
+    display: inline-block;
+    position: absolute;
+    right: 170px;
+    top:160px;
+}
+.grey{
+    color: #686868;
+}
+.who-text h2, .loc-text h2, .our-baking h2, .contact h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.who-text p, .loc-text p, .our-baking p, .contact p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.internal{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.who-text img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #dfdbdb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.internal img, .internal p{
+    display: inline-block;
+}
+.internal img{
+    vertical-align: middle;
+}
+.our-location, .contact{
+    background-color: #f8f8f8;
+}
+.loc-text, .loc-img, .contact-text{
+    width:565px;
+    height: 537px;
+    display: inline-block;
+}
+.loc-img, .contact-map{
+    position: absolute;
+    right: 170px;
+}
+.loc-text{
+    margin-top: 200px
+}
+.our-location{
+    height: 600px;
+}
+.our-baking{
+    text-align: center;
+}
+.our-baking h4{ 
+    font-size: 22px;
+    margin-top: 20px;
+}
+.item{
+    width: 370px;
+    float: left;
+}
+.item-img{
+    width:100%; 
+    height:300px ; 
+}
+.item-img img{
+    width:100%; 
+    height:100% ; 
+}
+.p{
+    padding-right: 15px;
+}
+.center{
+    margin-left:80px;
+    margin-top: 35px;
+}
+.clear-fix{
+    clear: both;
+}
+
+
+.contact-text{
+    float: left;
+}
+.contact-map{
+    float: right;
+}
+.contact img{
+    width: 35px;
+    height: 35px;
+    background-color: #8e7754;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: 1px;
+}
+
+.footer-top{
+    background-color: #403d38;
+    color: #ffffff; 
+    height: 326px; 
+    padding-top: 60px;
+    padding-bottom:52px ;
+    padding-left: 105px;
+    
+}
+.footer-top ul{
+    color: #969696;
+}
+.list ul, .list-last ul{
+    list-style: none;
+}
+
+.footer-img{
+    background-color:#353330 ;
+}
+
+.footer-titles{
+    font-size: 21px;
+}
+.border{
+    border-bottom: 1px solid #ffffff0d;
+}
+.list{
+    width: 20%;
+    float: left;
+    padding-right: 40px;
+}
+.list img{
+    width: 14px;
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+    
+}
+.list-last img{
+    width: 25px;
+    height: 30px;
+    float: left;
+    /* margin-right: 5px; */
+}
+.list-last {
+    width: 20%;
+    float: left;
+}
+.bg{
+     background-image: url(../images/contact-details-map.png);
+     background-size: cover;
+}
+
+.list-last a{
+    text-decoration: none;
+    color:#969696 ;
+} 
+.footer-top h4{
+    font-size: 25px;
+}
+.footer-top p, footer a{
+    font-size: 17px;
+}
+footer li, footer img{
+    padding-top: 20px;
+}
+
+.footer-bottom{
+    height: 235px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #353330;
+    color: #797979;
+}
+.footer-bottom{
+    text-align: center;
+    color:#777 ;
+    position: relative;
+}
+.footer-img-logo{
+    margin: auto;
+    width: 353px;
+    height: 96px;
+    margin-bottom: 40px;
+}
+.footer-img-logo img{
+    width: 100%;
+    height: 100%;
+    
+}
+.logos{
+    position: absolute;
+    left: 44%;
+    top: 70%;
+}
+.logos img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-color: #484540;
+    color: #8c8a86;
+    border-radius: 50%;
+    padding-top: 1px;
+    margin: 5px;
+}
